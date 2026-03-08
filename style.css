@@ -94,3 +94,93 @@
   padding: 0 8vw;
   height: 2vw;
 }
+
+@media (max-width: 600px) {
+  .header{
+  padding: 2vh;
+  text-align: center;
+}
+.header h1{
+  font-size: 4vh;
+}
+.header h4{
+  font-size: 1vh;
+}
+.menu #food-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+  padding: 1vh;
+}
+.card{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  width: 95vw;
+  padding: 1vh;
+  border-radius: 1vh;
+}
+.card .details p{
+  font-size: 1.2vh
+}
+.card .details .text{
+  font-size: 1.5vh;
+}
+.card .btn-div button{
+  padding: 0.8vh;
+  border-radius: 0.5vh;
+  font-size: 1vh;
+  border: 1px solid rgb(211, 180, 139);
+  box-shadow: 0 0 8px rgba(91, 91, 91, 0.5);
+}
+.card .btn-div button:hover{
+  scale: 1.1;
+  font-weight: bold;
+}
+.bill-container{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(206, 176, 176);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 1.2vh;
+}
+.bill-container .bill{
+  height: 35vh;
+  width: 60vh;
+  background-color: white;
+  border-radius: 3vh;
+  padding: 2vh;
+}
+.bill-container .bill .customer{
+  padding: 1vh;
+  border-bottom: 2px dashed black;
+  display: flex;
+  flex-direction: column;
+}
+.pricing header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2vh;
+}
+.pricing main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 20vh;
+}
+.pricing footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8vh;
+  height: 2vh;
+}
+}
