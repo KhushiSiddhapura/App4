@@ -81,12 +81,11 @@
 }
 
 .bill-container {
-    height: 200vh;
-    width: 100vw;
-    background-color: rgb(206, 176, 176);
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(206, 176, 176);
     font-family: monospace;
     font-size: 1.2vw;
 }
@@ -184,12 +183,11 @@ td {
     }
 
     .bill-container {
-        height: 200vh;
-        width: 100vw;
-        background-color: rgb(206, 176, 176);
+        min-height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: rgb(206, 176, 176);
         font-family: monospace;
         font-size: 1.2vh;
     }
