@@ -81,6 +81,7 @@
 }
 
 .bill-container {
+    height: 200vh;
     width: 100vw;
     background-color: rgb(206, 176, 176);
     display: flex;
