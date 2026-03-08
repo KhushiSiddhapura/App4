@@ -10,26 +10,28 @@
     <div class="bill-container">
         <div class="bill">
             <div class="customer">
-                <p><label for="name">Name</label><span>: Customer's Name</span></p>
-                <p><label for="no">Contact No.</label><span>: +91 9876543210</span></p>
-                <p><label for="add">Address</label><span>: Customer's Address</span></p>
+                <p><label for="name">Name</label><span>: Khushi Siddhapura</span></p>
+                <p><label for="no">Contact No.</label><span>: +91 8200886093</span></p>
+                <p><label for="add">Address</label><span>: T/1, Aradhana Devam, Anand - 388120</span></p>
                 <p><label for="date">Date</label><span>: 08 March, 2026</span></p>
             </div>
             <div class="pricing">
-                <header>
-                    <p>Food item</p>
-                    <p>Price</p>
-                    <p>Quantity</p>
-                </header>
-                <main>
-                    <p id="name"></p>
-                    <p id="price"></p>
-                    <p>1</p>
-                </main>
-                <footer>
-                    <p>Total Price: </p>
-                    <p id="total_price"></p>
-                </footer>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody id="billing">
+
+                    </tbody>
+                    <tr>
+                        <td colspan="2" class="right">Final Price:</td>
+                        <td id="total_pr">0</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
