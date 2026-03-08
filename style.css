@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: rgb(206, 176, 176);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+  padding: 2vw;
+  text-align: center;
+}
+.header h1{
+  font-size: 4vw;
+}
+.header h4{
+  font-size: 1vw;
+}
+.menu #food-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  padding: 1vw;
+}
+.card{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vw;
+  width: 95vw;
+  padding: 1vw;
+  border-radius: 1vw;
+}
+.card .details p{
+  font-size: 1.2vw
+}
+.card .details .text{
+  font-size: 1.5vw;
+}
+.card .btn-div button{
+  padding: 0.8vw;
+  border-radius: 0.5vw;
+  font-size: 1vw;
+  border: 1px solid rgb(211, 180, 139);
+  box-shadow: 0 0 8px rgba(91, 91, 91, 0.5);
+}
+.card .btn-div button:hover{
+  scale: 1.1;
+  font-weight: bold;
+}
+.bill-container{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(206, 176, 176);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 1.2vw;
+}
+.bill-container .bill{
+  height: 35vw;
+  width: 60vw;
+  background-color: white;
+  border-radius: 3vw;
+  padding: 2vw;
+}
+.bill-container .bill .customer{
+  padding: 1vw;
+  border-bottom: 2px dashed black;
+  display: flex;
+  flex-direction: column;
+}
+.pricing header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2vw;
+}
+.pricing main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 20vw;
+}
+.pricing footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8vw;
+  height: 2vw;
+}
